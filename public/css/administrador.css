@@ -1,0 +1,171 @@
+
+.color-label {
+	color: #50a3a2;
+}
+
+.color-encabezado{
+	background-color: #c4e84f;
+	color:#fff;
+}
+
+.tagline{
+	height:0;
+	border-top:1px solid #d9dde5;
+	text-align:center
+}
+
+.tagline span{
+
+	display:inline-block;
+	position:relative;
+	padding:0 15px;
+	background:#fff;
+	color:#777777;
+	top:-10px
+}
+
+.spacer-1{
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+.spacer-2{
+	margin-bottom:50px;
+	margin-top:30px;
+}
+
+.spacer-3{
+	margin-bottom:10px;
+	margin-top:40px;
+	float:none;
+	text-align:center;
+}
+
+span.required{
+	color:#ff0000;
+	font-weight: bold;
+}
+
+.btn-ver-comercializadores{
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.user-panel > .icon > span{
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	border-radius: 50%;
+	border: 1px solid rgba(255,255,255,.8);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.text-ticket-primary{
+	border-left:2px solid #3c8dbc;
+	border-right:2px solid #3c8dbc;
+	border-bottom:2px solid #3c8dbc;
+	border-top:15px solid #3c8dbc;
+}
+
+.text-ticket-warning{
+	border-left:2px solid #f39c12;
+	border-right:2px solid #f39c12;
+	border-bottom:2px solid #f39c12;
+	border-top:15px solid #f39c12;
+}
+
+.text-ticket-success{
+	border-left:2px solid #00a65a;
+	border-right:2px solid #00a65a;
+	border-bottom:2px solid #00a65a;
+	border-top:15px solid #00a65a;
+}
+
+.treeview-menu>li>a{
+	padding: 12px 5px 12px 15px;
+}
+
+#content-miniaturas{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+#content-miniaturas .content-img{
+	display: inline-block;
+	width: calc(20% - 10px);
+	padding: 7px;
+	background: #fff;
+	border: 2px solid rgba(0,0,0,0);
+	margin-right: 10px;
+	float: left;
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,.2);
+}
+
+#content-miniaturas .content-img.active{
+	border: 2px solid #98b732;
+}
+
+.table-producto-documento tbody .td-50{
+	width: 50px;
+}
+
+.table-producto-documento tbody .td-input{
+	padding: 0px;
+}
+
+.table-producto-documento tbody input[type="text"],
+.table-producto-documento tbody input[type="number"],
+.table-producto-documento tbody textarea,
+.table-producto-documento tbody select{
+	background: transparent;
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 8px 10px;
+	-webkit-transition: background .3s;
+	-o-transition: background .3s;
+	transition: background .3s;
+	display: block;
+}
+
+.table-producto-documento tbody .td-input-button input[type="text"],
+.table-producto-documento tbody .td-input-button input[type="number"]{
+	display: inline-block;
+	width: 80%;
+}
+
+.table-producto-documento tbody .td-input input[type="text"],
+.table-producto-documento tbody .td-input input[type="number"],
+.table-producto-documento tbody .td-input textarea{
+font-size: 12px;
+}
+	
+.table-producto-documento tbody .td-input-button a{
+	display: inline-block;
+	width: 20%;
+	padding: 8px 8px;
+	color: #444;
+	-webkit-transition: background .3s;
+	-o-transition: background .3s;
+	transition: background .3s;
+}
+
+.table-producto-documento tbody input[type="text"]:focus,
+.table-producto-documento tbody input[type="text"]:focus + a,
+.table-producto-documento tbody input[type="number"]:focus,
+.table-producto-documento tbody input[type="number"]:focus + a{
+	background: #fff;
+}
+
+.no-visible{
+	display: none !important;
+	width: 0px !important;
+	height: 0px !important;
+	overflow: hidden !important;
+	opacity: 0 !important;
+	visibility: hidden !important;
+}
